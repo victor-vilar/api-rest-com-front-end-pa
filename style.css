@@ -1,0 +1,41 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+h1{
+    margin:40px 0 40px 0;
+    margin-bottom: 40px;
+   
+}
+
+.box, form{
+    gap:20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input {
+    width:300px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 0 15px 0 15px;
+}
+
+button{
+    width:300px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: aqua;
+    cursor:;
+}
